@@ -1,0 +1,72 @@
+html {
+    height: 110vh;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-de-fundo:#202024;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.titulo {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    height: 45px;
+    width: 500px;
+}
+
+.redacao {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    color: white;
+    height: 600px;
+    vertical-align: top;
+    text-align: start;
+    width: 500px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.btn {
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 30px;
+    width: 80px;
+}
+
+.btn:hover {
+    border: 1px solid black;
+    background-color: green;
+    cursor: pointer;
+}
